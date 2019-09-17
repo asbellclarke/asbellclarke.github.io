@@ -1,0 +1,12 @@
+*.log
+
+~*
+_*
+
+/e/*
+
+/robots.txt
+
+/.htaccess
+/*.sitemap.xml
+/*.sitemap.xml.gz

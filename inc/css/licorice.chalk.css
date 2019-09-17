@@ -1,0 +1,14 @@
+body {
+  background-color:#fff8e8;
+  color:#280028;
+}
+a {
+  color:#000000;
+}
+a:hover:not(.img) {
+  border-top:1px solid #280028;
+  color:#280028;
+}
+.video {
+  border:2px solid #280028;
+}
