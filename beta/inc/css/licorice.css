@@ -1,0 +1,290 @@
+/*
+ Theme Name:   Allsorts Licorice
+ Theme URI:    https://asbellclarke.github.io
+ Description:  Licorice (Allsorts) by Dane Aleksander.
+ Author:       Dane Aleksander
+ Author URI:   https://danealeksander.github.io/
+ Template:
+ Version:      0.0.1
+*/
+
+/* - reset
+ * 1 font
+ * 1 type
+ * 2 architecture
+ *   1 gutter
+ * 3 media
+ *   1 logo
+ *   2 profile
+ *
+ * 0 @queries
+ */
+
+
+
+/* RESET */
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+em, i {
+  font-style: normal;
+}
+
+
+
+/* 1 ARCHITECTURE */
+
+html {
+  -webkit-text-size-adjust: 62.5%;
+     -moz-text-size-adjust: 62.5%;
+      -ms-text-size-adjust: 62.5%;
+       -o-text-size-adjust: 62.5%;
+  font-size: 62.5%;
+  size: 62.5%;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.author-title {
+  grid-area: allsorts-candy-a-right;
+}
+.author-profile {
+  grid-area: allsorts-candy-a-left;
+}
+.author-book {
+  grid-area: allsorts-licorice-a-left;
+}
+.author-book-cover {
+  grid-area: allsorts-licorice-a-right;
+}
+.author-quote {
+  grid-area: allsorts-candy-b-layer;
+}
+.author-page {
+  grid-area: allsorts-licorice-b-layer;
+}
+.author-bio {
+  grid-area: allsorts-candy-c-right;
+}
+.author-contact {
+  grid-area: allsorts-candy-c-left;
+}
+.administrator-copy {
+  grid-area: allsorts-candy-c-end;
+}
+.allsorts-candy {
+  display: grid;
+  grid-gap: 3em;
+  height: 100%;
+  padding: 21vh 13em;
+}
+.allsorts-candy-a {
+  grid-template-areas:
+    'allsorts-candy-a-left allsorts-candy-a-right';
+}
+.allsorts-candy-b {
+  grid-template-areas:
+    'allsorts-candy-b-layer';
+}
+.allsorts-candy-c {
+  grid-template-areas:
+    'allsorts-candy-c-left allsorts-candy-c-right'
+    'allsorts-candy-c-end allsorts-candy-c-end';
+}
+.allsorts-licorice {
+  display: grid;
+  grid-gap: 3em;
+  height: 100%;
+  padding: 8vh 13em;
+}
+.allsorts-licorice-a {
+  grid-template-areas:
+    'allsorts-licorice-a-left allsorts-licorice-a-right';
+}
+.allsorts-licorice-b {
+  grid-template-areas:
+    'allsorts-licorice-b-layer';
+}
+.allsorts-grid {
+  align-content: start;
+  display: inline-grid;
+  padding: 3em;
+}
+.allsorts-grid-end {
+  justify-content: end;
+}
+
+
+
+/* 2 FONT */
+
+body {
+  font-family: 'Arimo', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+h1, h3, h5, p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+}
+h2,
+b, strong {
+  font-weight: 700;
+}
+h1 b, h1 strong,
+h3 b, h3 strong,
+h5 b, h5 strong,
+p b, p strong,
+a {
+  font-weight: 500;
+}
+
+h1, h2 {
+  font-size: 8em;
+}
+h3 {
+  font-size: 5em;
+}
+h4 {
+  font-size: 3em;
+}
+h5, h6, li,
+button, input, select, textarea {
+  font-size: 2em;
+}
+p {
+  font-size: 1.25em;
+}
+.small {
+  font-size: 0.5em;
+}
+p .small,
+li .small {
+  font-size: calc(2em / 3);
+}
+p.small,
+li.small {
+  font-size: 1em;
+}
+
+p,
+button, input, select, textarea {
+  line-height: 1.5em;
+}
+
+h1 em, h1 i,
+h3 em, h3 i,
+h5 em, h5 i,
+p em, p i {
+  font-style: italic;
+}
+h6 {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-quote {
+  font-size: 3em;
+  line-height: 0;
+  vertical-align: -0.45em;
+}
+
+ul li {
+  list-style: square;
+}
+
+
+
+/* 3 GUTTER */
+
+h4, h5, h6,
+.linebreak {
+  margin-top: 1.5em;
+}
+button, input, select, textarea {
+  padding: 0.5em 0;
+}
+br.clear {
+  clear: both;
+}
+.clear {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* 4 INPUT */
+
+button, input, select, textarea {
+  width: 100%;
+}
+button,
+input[type="button"],
+input[type="checkbox"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+     -moz-appearance: button;
+      -ms-appearance: button;
+       -o-appearance: button;
+          appearance: button;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+}
+button:hover, button:focus,
+input[type="button"]:hover,
+input[type="checkbox"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:focus,
+input[type="checkbox"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+  outline: none;
+}
+
+
+
+
+/* 5 MEDIA */
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+img.logo {
+  min-width: 8em;
+  width: 6.25vw;
+}
+img.profile {
+  /* border: 0.4em solid #280028; */
+}
+
+/* 0 QUERIES */
