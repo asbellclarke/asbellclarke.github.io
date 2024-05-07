@@ -1,0 +1,39 @@
+body {
+  background-color:#280028;
+  color:#d80028;
+}
+p {
+  background-color:#ffd8d8;
+  color:#280028;
+}
+a,
+.title-text {
+  color:#280028;
+}
+a:hover {
+  color:#d80028;
+  text-shadow:rgba(0,0,0,0.5);
+}
+.small {
+  color:#d8b0b0;
+}
+.small a {
+  color:#d8b0b0;
+}
+.color {
+  background-color:#d80028;
+  color:#d8b0b0;
+}
+.blank,
+.blank-fold,
+.fold {
+  background-color:#d8b0b0;
+  color:#d80028;
+}
+ul.menu a:hover {
+  color:#280028;
+  border-bottom:1px solid #280028;
+}
+.video {
+  border:2px solid #280028;
+}
