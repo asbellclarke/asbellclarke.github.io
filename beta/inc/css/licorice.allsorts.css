@@ -1,0 +1,86 @@
+/* ROOT */
+
+:root {
+
+  /* --candy: #FFF; */
+  /* --licorice: #000; */
+
+  --nd-cyan: #125079;
+  --nd-orange: #e66100;
+  --nd-teal: #2dbec2;
+
+}
+
+
+
+/* 8 COLOR */
+
+/* 8.1 FONT-COLOR */
+
+.allsorts-candy-black a,
+.allsorts-licorice a {
+  color: var(--nd-teal);
+}
+.allsorts-candy a:hover,
+.allsorts-candy .color,
+.allsorts-candy-nd-cyan a,
+.allsorts-licorice-nd-cyan a {
+  color: var(--nd-orange);
+}
+a:hover {
+  color: white;
+}
+button,
+.allsorts-candy-black,
+.allsorts-candy-nd-cyan,
+.allsorts-licorice,
+.allsorts-licorice-nd-cyan {
+  color: white;
+}
+
+/* 8.2 BACKGROUND-COLOR */
+
+.allsorts-candy {
+  background-color: white;
+}
+
+.allsorts-candy-black,
+.allsorts-licorice {
+  background-color: black;
+}
+.allsorts-candy-nd-cyan,
+.allsorts-licorice-nd-cyan {
+  background-color: var(--nd-cyan);
+}
+button,
+.allsorts-candy-nd-orange {
+  background-color: var(--nd-orange);
+}
+.allsorts-candy-nd-teal {
+  background-color: var(--nd-teal);
+}
+button:hover {
+  /* background-color: var(--nd-orange-ii); */
+}
+
+/* 8.3 BORDER-COLOR */
+
+.allsorts-candy .matte {
+  border: 1.25em solid var(--nd-orange);
+}
+.allsorts-candy-black .matte,
+.allsorts-licorice .matte {
+  border: 1.25em solid var(--nd-teal);
+}
+.allsorts-candy-black .matte,
+.allsorts-candy-nd-cyan .matte,
+.allsorts-licorice .matte,
+.allsorts-licorice-nd-cyan .matte {
+  border: 1.25em solid var(--nd-teal);
+}
+.allsorts-licorice-nd-cyan .matte {
+  border: 1.25em solid white;
+}
+.allsorts-candy-nd-orange .matte {
+  border: 1.25em solid black;
+}
