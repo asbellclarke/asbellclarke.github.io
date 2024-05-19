@@ -52,15 +52,32 @@ button,
 .allsorts-licorice-nd-cyan {
   background-color: var(--nd-cyan);
 }
+.feature-left {
+  background-color: none;
+  background-attachment: fixed;
+  background-image: url("../ico/jac-paper-airplane-a.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 35vw auto;
+}
+.feature-right {
+  background-color: none;
+  background-attachment: fixed;
+  background-image: url("../ico/jac-paper-airplane-b.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 35vw auto;
+}
 button,
-.allsorts-candy-nd-orange {
+.allsorts-candy-nd-orange,
+.allsorts-licorice-nd-orange {
   background-color: var(--nd-orange);
 }
 .allsorts-candy-nd-teal {
   background-color: var(--nd-teal);
 }
 button:hover {
-  /* background-color: var(--nd-orange-ii); */
+  background-color: var(--nd-teal);
 }
 
 /* 8.3 BORDER-COLOR */
@@ -81,6 +98,7 @@ button:hover {
 .allsorts-licorice-nd-cyan .matte {
   border: 1.25em solid white;
 }
-.allsorts-candy-nd-orange .matte {
+.allsorts-candy-nd-orange .matte,
+.allsorts-licorice-nd-orange .matte {
   border: 1.25em solid black;
 }
