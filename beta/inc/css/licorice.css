@@ -175,21 +175,15 @@ nav ul li,
 
 nav ul,
 .allsorts > div {
-  padding: 0 13em;
+  padding: 1em 13em;
 }
-div.allsorts-candy,
-div.allsorts-candy-black,
-div.allsorts-candy-nd-cyan,
-div.allsorts-candy-nd-orange,
-div.allsorts-candy-nd-teal {
-  padding-top: var(--base-vi);
-  padding-bottom: var(--base-vi);
-}
-div.allsorts-licorice,
-div.allsorts-licorice-nd-cyan,
-div.allsorts-licorice-nd-orange {
+.allsorts > div {
   padding-top: var(--base-v);
   padding-bottom: var(--base-v);
+}
+div.feature {
+  padding-top: var(--base-vi);
+  padding-bottom: var(--base-vi);
 }
 
 /* 1 3 GRID */
@@ -292,7 +286,11 @@ li, input {
 
 body {
   font-family: 'Arimo', sans-serif;
-  font-size: 1rem;
+  /* -webkit-text-size-adjust: 80%;
+     -moz-text-size-adjust: 80%;
+      -ms-text-size-adjust: 80%;
+       -o-text-size-adjust: 80%; */
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
 }
@@ -424,6 +422,10 @@ img {
 
 /* 9 1 MARK */
 
+img.icon {
+  /* min-width: ; */
+  width: 1em;
+}
 img.logo {
   min-width: 8em;
   width: 6.25vw;

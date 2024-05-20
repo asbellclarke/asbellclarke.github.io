@@ -17,39 +17,41 @@
 
 /* 8.1 FONT-COLOR */
 
-.allsorts-candy-black a,
 .allsorts-licorice a {
   color: var(--nd-teal);
 }
 .allsorts-candy a:hover,
 .allsorts-candy .color,
-.allsorts-candy-nd-cyan a,
-.allsorts-licorice-nd-cyan a {
+.allsorts-candy-nd-cyan a {
   color: var(--nd-orange);
 }
-a:hover {
-  color: white;
+.allsorts-candy-nd-teal a {
+  /* color: var(--nd-cyan); */
 }
+a:hover,
 button,
-.allsorts-candy-black,
 .allsorts-candy-nd-cyan,
-.allsorts-licorice,
-.allsorts-licorice-nd-cyan {
+.allsorts-licorice {
   color: white;
 }
+
+/* nav a {
+  color: white;
+}
+nav a:hover {
+  color: teal;
+} */
 
 /* 8.2 BACKGROUND-COLOR */
 
 .allsorts-candy {
   background-color: white;
 }
-
-.allsorts-candy-black,
+/* nav, */
 .allsorts-licorice {
   background-color: black;
 }
-.allsorts-candy-nd-cyan,
-.allsorts-licorice-nd-cyan {
+.allsorts-candy-nd-cyan {
   background-color: var(--nd-cyan);
 }
 .feature-left {
@@ -69,8 +71,7 @@ button,
   background-size: 35vw auto;
 }
 button,
-.allsorts-candy-nd-orange,
-.allsorts-licorice-nd-orange {
+.allsorts-candy-nd-orange {
   background-color: var(--nd-orange);
 }
 .allsorts-candy-nd-teal {
@@ -85,20 +86,15 @@ button:hover {
 .allsorts-candy .matte {
   border: 1.25em solid var(--nd-orange);
 }
-.allsorts-candy-black .matte,
 .allsorts-licorice .matte {
   border: 1.25em solid var(--nd-teal);
 }
-.allsorts-candy-black .matte,
-.allsorts-candy-nd-cyan .matte,
-.allsorts-licorice .matte,
-.allsorts-licorice-nd-cyan .matte {
+.allsorts-licorice .matte {
   border: 1.25em solid var(--nd-teal);
 }
-.allsorts-licorice-nd-cyan .matte {
+.allsorts-candy-nd-cyan .matte {
   border: 1.25em solid white;
 }
-.allsorts-candy-nd-orange .matte,
-.allsorts-licorice-nd-orange .matte {
+.allsorts-candy-nd-orange .matte {
   border: 1.25em solid black;
 }
