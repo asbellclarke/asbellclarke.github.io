@@ -139,8 +139,15 @@
 
         </div>
         <div>
-          <input aria-label="??" id="field??" maxlength="140" name="cm-??" title="??" placeholder="Select service" onfocus="if (this.value=='Select service') this.value = ''">
-          <button type="submit"> < Paper Airplane > </button>
+          <input type="hidden" name="cm-??" title="??" placeholder="Select service" onfocus="if (this.value=='Select service') this.value = ''" value="Request">
+          <select name="os0">
+            <option value="Select service">Select service</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Coach">Coach</option>
+            <option value="Consultation">Consultation</option>
+          </select>
+          <button type="submit">Send request&nbsp; <img class="button" src="../inc/svg/jac.paper-airplane.mark.1.0.white.svg"/></button>
           <p class="small">E-mail address required for your protection and to protect from spam.</p>
           <p class="clear small">Optional: Enter telephone number if you prefer to recieve a call in response.</p>
 

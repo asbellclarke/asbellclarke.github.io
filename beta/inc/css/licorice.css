@@ -276,10 +276,6 @@ form {
 button, input, select, textarea {
   padding: 1em;
 }
-select {
-  margin: 1em 0 0;
-  height: 3em;
-}
 li, input {
   margin: 1em 0 0;
 }
@@ -306,7 +302,8 @@ h2, h4, h6,
 b {
   font-weight: 700;
 }
-a {
+a,
+button {
   font-weight: 500;
   text-decoration: none;
 }
@@ -392,6 +389,27 @@ input[type="submit"]:focus {
   outline: none;
 }
 
+select {
+
+  font-family: 'Arimo', sans-serif;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* border: 1px solid; */
+  border-radius: 0;
+  /* line-height: 3em; */
+  height: 3em;
+
+  margin: 1em 0 0;
+
+}
+
+.matte {
+  border: 1.25em solid;
+}
+
 
 
 /* 8 COLOR */
@@ -426,11 +444,14 @@ img {
 
 /* 9 1 MARK */
 
-img.icon {
+img.icon,
+img.button {
   /* min-width: ; */
   width: 1em;
-  /* -webkit-transform: scaleX(-1); */
-  /* transform: scaleX(-1); */
+}
+img.button {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 img.logo {
   min-width: 8em;
