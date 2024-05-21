@@ -31,7 +31,6 @@
 
     <ul class="">
       <li class="nav"><a href="#welcome" title="Dr. Jodi Asbell-Clarke">&#9733;</a></li>
-      <!-- <img class="icon" src="inc/ico/jo_.1.0.black.svg"/> -->
       <li class="nav title"><a href="neurodiversity-inclusion/" title="">Workshop&nbsp;/&nbsp;Seminar</a></li>
       <li class="nav title"><a href="executive-function/" title="">Consultation</a></li>
       <li class="nav title"><a href="jodi/" title="About Dr. Jodi Asbell-Clarke">About</a></li>
@@ -158,9 +157,17 @@
 
         </div>
         <div>
-          <input aria-label="??" id="field??" maxlength="140" name="cm-??" title="??" placeholder="Select service" onfocus="if (this.value=='Select service') this.value = ''">
+
+          <input type="hidden" name="cm-??" title="??" placeholder="Select service" onfocus="if (this.value=='Select service') this.value = ''" value="Request">
+          <select name="os0">
+            <option value="Select service">Select service</option>
+            <option value="Workshop">Workshop</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Coach">Coach</option>
+            <option value="Consultation">Consultation</option>
+          </select>
           <!-- <input aria-label="??" id="field??" maxlength="140" name="cm-??" title="??" placeholder="Select term" onfocus="if (this.value=='Select term') this.value = ''"> -->
-          <button type="submit"> < Paper Airplane > </button>
+          <button type="submit"><img class="icon" src="inc/svg/jac.paper-airplane.mark.1.0.white.svg"/></button>
           <p class="small">E-mail address required for your protection and to protect from spam.</p>
           <p class="clear small">Optional: Enter telephone number if you prefer to recieve a call in response.</p>
 
@@ -210,10 +217,10 @@
 
 <script>
 
-  var jo = document.getElementById("jo_")
+  // var jo = document.getElementById("jo_")
 
-  function joPlus() { jo.src='inc/ico/jo+.1.nd.teal.svg'; };
-  function jo_() { jo.src='inc/ico/jo_.1.nd.teal.svg'; };
+  // function joPlus() { jo.src='inc/ico/jo+.1.nd.teal.svg'; };
+  // function jo_() { jo.src='inc/ico/jo_.1.nd.teal.svg'; };
 
   function cover() { document.querySelector( "#welcome" ).scrollIntoView({ behavior: 'smooth' }); };
   function publication() { document.querySelector( "#publication" ).scrollIntoView({ behavior: 'smooth' }); };

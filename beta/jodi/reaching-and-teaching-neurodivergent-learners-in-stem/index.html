@@ -30,10 +30,10 @@
   <nav class="allsorts-candy-nd-cyan allsorts-nav">
 
     <ul class="">
-      <li class="nav"><a href="../../" title="">&lt;</a></li>
-      <li class="nav title"><a href="../" title="Dr. Jodi Asbell-Clarke">About the Author</a></li>
+      <li class="nav"><a href="../../" title="" onmouseover="paper_airplane_alt();" onmouseout="paper_airplane();"><img class="icon" id="paper-airplane" src="../../inc/svg/jac.paper-airplane.mark.1.0.nd-color-alt.svg"/></a></li>
+      <li class="nav title">About <a href="../" title="Dr. Jodi Asbell-Clarke">Jodi Asbell-Clarke</a></li>
 
-      <li class="nav right title"><a>Buy the Book</a></li>
+      <li class="nav right title">Buy &middot; <a>Amazon</a> &middot; <a>??</a></li>
     </ul>
 
   </nav>
@@ -70,7 +70,7 @@
 
   </div>
 
-  <div class="allsorts-candy-nd-cyan layer">
+  <div class="allsorts-candy layer">
 
     <div class="grid grid-layer">
       <h5 class="clear text-center"><b>&ldquo;</b>Imagine a second quote.<b>&rdquo;</b></h5>
@@ -166,6 +166,11 @@
 </body>
 
 <script>
+
+  var airplane = document.getElementById("paper-airplane")
+
+  function paper_airplane() { airplane.src='../../inc/svg/jac.paper-airplane.mark.1.0.nd-color-alt.svg'; };
+  function paper_airplane_alt() { airplane.src='../../inc/svg/jac.paper-airplane.mark.1.0.b-w.svg'; };
 
   function author() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
   function contact() { document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' }); };

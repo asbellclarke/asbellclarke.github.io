@@ -57,7 +57,7 @@ nav a:hover {
 .feature-left {
   background-color: none;
   background-attachment: fixed;
-  background-image: url("../ico/jac-paper-airplane-a.svg");
+  background-image: url("../svg/jac.paper-airplane.a.svg");
   background-position: left;
   background-repeat: no-repeat;
   background-size: 35vw auto;
@@ -65,7 +65,7 @@ nav a:hover {
 .feature-right {
   background-color: none;
   background-attachment: fixed;
-  background-image: url("../ico/jac-paper-airplane-b.svg");
+  background-image: url("../svg/jac.paper-airplane.b.svg");
   background-position: right;
   background-repeat: no-repeat;
   background-size: 35vw auto;

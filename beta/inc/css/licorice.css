@@ -276,6 +276,10 @@ form {
 button, input, select, textarea {
   padding: 1em;
 }
+select {
+  margin: 1em 0 0;
+  height: 3em;
+}
 li, input {
   margin: 1em 0 0;
 }
@@ -290,7 +294,7 @@ body {
      -moz-text-size-adjust: 80%;
       -ms-text-size-adjust: 80%;
        -o-text-size-adjust: 80%; */
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
 }
@@ -425,6 +429,8 @@ img {
 img.icon {
   /* min-width: ; */
   width: 1em;
+  /* -webkit-transform: scaleX(-1); */
+  /* transform: scaleX(-1); */
 }
 img.logo {
   min-width: 8em;
