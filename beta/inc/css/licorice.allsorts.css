@@ -49,7 +49,7 @@ nav a:hover {
   background-color: white;
 }
 /* nav, */
-button,
+select,
 .allsorts-licorice {
   background-color: black;
 }
@@ -72,7 +72,7 @@ button,
   background-repeat: no-repeat;
   background-size: 35vw auto;
 }
-select,
+button,
 .allsorts-candy-nd-orange {
   background-color: var(--nd-orange);
 }
