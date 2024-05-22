@@ -48,7 +48,6 @@ nav a:hover {
 .allsorts-candy {
   background-color: white;
 }
-/* nav, */
 select,
 .allsorts-licorice {
   background-color: black;
@@ -56,6 +55,18 @@ select,
 .allsorts-candy-nd-cyan {
   background-color: var(--nd-cyan);
 }
+button,
+.allsorts-candy-nd-orange {
+  background-color: var(--nd-orange);
+}
+button:hover,
+select:hover,
+.allsorts-candy-nd-teal {
+  background-color: var(--nd-teal);
+}
+
+/* nav, */
+
 .feature-left {
   background-color: none;
   background-attachment: fixed;
@@ -72,14 +83,17 @@ select,
   background-repeat: no-repeat;
   background-size: 35vw auto;
 }
-button,
-.allsorts-candy-nd-orange {
-  background-color: var(--nd-orange);
+
+.allsorts-candy-nd-orange button,
+.allsorts-candy-nd-teal button {
+  background-color: black;
 }
-button:hover,
-select:hover,
-.allsorts-candy-nd-teal {
+.allsorts-candy-nd-orange button:hover {
   background-color: var(--nd-teal);
+
+}
+.allsorts-candy-nd-teal button:hover {
+  background-color: var(--nd-orange);
 }
 
 /* 8.3 BORDER-COLOR */

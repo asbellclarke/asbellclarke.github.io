@@ -46,7 +46,7 @@
 
       <h5>In-store &middot; <a>Amazon</a> &middot; <a>??</a></h5>
 
-      <p>Back of the book &middot; <a onclick="author();">Neurodivergent Learners in STEM</a></p>
+      <p>Back of the book &middot; <a onclick="about();">Neurodivergent Learners in STEM</a></p>
 
     </div>
 
@@ -94,7 +94,7 @@
 
     <div class="grid grid-right">
 
-      <img class="matte" src=""/>
+      <img class="matte null" src=""/>
 
       <p>Providing salient stories and practical strategies, this book empowers educators to embrace the unique talents of neurodivergent learners in science, technology, engineering, and mathematics (STEM). An exploration of the exciting opportunities neurodiversity presents to build an innovative workforce is grounded in a large body of research from psychology, neuroscience, and education.</p>
 
@@ -104,7 +104,7 @@
 
       <!-- <p><i>Reaching and Teaching Neurodivergent Learners in STEM: Strategies for Embracing Uniquely Talented Problem Solvers</i> (2024) &middot; An <i>Eye on Education</i> book written by Dr. Jodi Asbell-Clarke &middot; <a>Amazon</a> &middot; <a>??</a></p> -->
 
-      <h5>More about the Author &middot; <a onclick="contact();" title="">Dr. Jodi Asbell-Clarke</a></h5>
+      <p>More about the Author &middot; <a onclick="contact();" title="">Dr. Jodi Asbell-Clarke</a></p>
 
     </div>
 
@@ -121,23 +121,26 @@
     <div class="grid grid-right">
 
       <img class="matte" src="../../inc/img/jac-terc.jpeg"/>
-      <p>Jodi Asbell-Clarke, PhD, somehwere, YYYY</p>
+      <div class="gutter">
+        <p class="clear small">Jodi Asbell-Clarke, PhD, somehwere, YYYY</p>
+
+      </div>
 
     </div>
 
     <div class="grid grid-left">
 
-      <img class="matte" src=""/>
+      <img class="matte null" src=""/>
 
       <p>Back of the book bio. (Last paragraph.)</p>
 
       <p>Lead in from the book to the workshops and seminars... And consultations. (Add paragraph.)</p>
 
       <h5>Organizational</h5>
-      <h5 class="clear"><a href="neurodiversity-inclusion/">Neurodiversity Inclusion</a> workshops &amp; seminars</h5>
+      <h5 class="clear"><a href="../../neurodiversity-inclusion/" title="">Neurodiversity Inclusion</a> workshops &amp; seminars</h5>
 
       <h5>Personal</h5>
-      <h5 class="clear"><a href="executive-function/">Executive Function</a> coaching</h5>
+      <h5 class="clear"><a href="../../executive-function/" title="">Executive Function</a> coaching</h5>
 
     </div>
 
@@ -147,13 +150,13 @@
 
     <div class="grid grid-right">
 
-      <img class="matte" src=""/>
+      <img class="matte null" src=""/>
 
     </div>
 
     <div class="grid grid-left">
 
-      <img class="matte" src=""/>
+      <img class="matte null" src=""/>
 
     </div>
 
@@ -172,7 +175,7 @@
   function paper_airplane() { airplane.src='../../inc/svg/jac.paper-airplane.mark.1.0.nd-color-alt.svg'; };
   function paper_airplane_alt() { airplane.src='../../inc/svg/jac.paper-airplane.mark.1.0.b-w.svg'; };
 
-  function author() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
+  function about() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
   function contact() { document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' }); };
 
 </script>
