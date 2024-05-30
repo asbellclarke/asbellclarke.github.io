@@ -455,8 +455,8 @@ img.button {
   width: 1em;
 }
 img.button {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
+  /* -webkit-transform: scaleX(-1); */
+  /* transform: scaleX(-1); */
 }
 img.logo {
   min-width: 8em;
