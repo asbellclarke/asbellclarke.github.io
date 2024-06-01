@@ -3,12 +3,4 @@
 ~*
 _*
 
-/e/*
-
-/robots.txt
-
-/.htaccess
-/*.sitemap.xml
-/*.sitemap.xml.gz
-
 *.DS_Store

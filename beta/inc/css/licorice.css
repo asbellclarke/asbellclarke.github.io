@@ -289,10 +289,10 @@ li:not(.nav), input {
 
 body {
   font-family: 'Arimo', sans-serif;
-  /* -webkit-text-size-adjust: 80%;
-     -moz-text-size-adjust: 80%;
-      -ms-text-size-adjust: 80%;
-       -o-text-size-adjust: 80%; */
+  /* -webkit-text-size-adjust: 90%;
+     -moz-text-size-adjust: 90%;
+      -ms-text-size-adjust: 90%;
+       -o-text-size-adjust: 90%; */
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
@@ -451,12 +451,7 @@ img {
 
 img.icon,
 img.button {
-  /* min-width: ; */
   width: 1em;
-}
-img.button {
-  /* -webkit-transform: scaleX(-1); */
-  /* transform: scaleX(-1); */
 }
 img.logo {
   min-width: 8em;
@@ -466,7 +461,7 @@ img.null {
   max-width: 2.5em;
 }
 
-/* 9 1 MARK */
+/* 9 2 IFRAME */
 
 iframe.video {
   height: calc( 39em * ( 9 / 16 ) );
