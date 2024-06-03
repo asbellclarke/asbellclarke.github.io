@@ -8,6 +8,8 @@
 <meta name="description" content="Executive function coach, Dr Jodi Asbell-Clarke." />
 <meta name="keywords" content="" />
 
+<!-- executive function coach, executive function support, neurodivergent learner, executive function halifax, jodi -->
+
 <title>Dr Jodi Asbell-Clarke</title>
 
 <link rel="prefetch" href="https://fonts.googleapis.com/css?family=Arimo:400,700|IBM+Plex+Sans:300,300i,500" />
@@ -114,7 +116,7 @@
 
       <p>Did you ever let someone down because you got so involved in a task that you forgot to show up?</p>
 
-      <p>Did you ever spend more time preparing for a task than actually getting it done?</p>
+      <p>Do you spend more time preparing for a task than actually getting it done?</p>
 
       <p><i>These lapses in executive function can be frustrating and sometimes debilitating.</i></p>
 
@@ -191,13 +193,15 @@
 
     <div class="grid grid-right">
 
-      <img class="matte null" />
+      <!-- <img class="matte null" /> -->
 
     </div>
 
     <div class="grid grid-left">
 
       <img class="matte null" />
+
+      <p class="small">Copyright &copy; 2024 Jodi Asbell-Clarke. <a href="" title="">Terms of Access</a>.</p>
 
     </div>
 
@@ -230,7 +234,10 @@
   };
 
   function about() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
-  function contact() { document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' }); };
+  function contact() {
+    div_what_is.style.display = "none";
+    document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' });
+  };
 
 </script>
 

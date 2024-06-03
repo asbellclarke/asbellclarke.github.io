@@ -310,7 +310,10 @@ button {
   font-weight: 500;
   text-decoration: none;
 }
-i ~ *:not(h1, h3, h5, p, li) {
+i {
+  font-style: italic;
+}
+*:not(h1, h3, h5, p, li) > i {
   font-style: normal;
 }
 
@@ -464,7 +467,12 @@ img.null {
 /* 9 2 IFRAME */
 
 iframe.video {
-  height: calc( 39em * ( 9 / 16 ) );
+  height: calc( 45em * ( 9 / 16 ) );
+  width: 100%;
+}
+
+iframe.video-plus {
+  height: calc( 78em * ( 9 / 16 ) );
   width: 100%;
 }
 
