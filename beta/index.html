@@ -187,7 +187,7 @@
       <h3 class="clear">Contact Dr&nbsp;Jodi Asbell-Clarke</h3>
       <p class="clear">Enter your name and address to request workshops, seminars or coaching sessions.</p>
 
-      <form id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
+      <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
 
         <div>
           <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''" required="">
@@ -253,16 +253,20 @@
 
 </body>
 
-<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
-
 <script>
 
-  // var jo = document.getElementById("jo_")
+  var airplane = document.getElementById("paper-airplane");
 
-  // function joPlus() { jo.src='inc/ico/jo+.1.nd.teal.svg'; };
-  // function jo_() { jo.src='inc/ico/jo_.1.nd.teal.svg'; };
+  document.onload = load_createsend();
 
-  var airplane = document.getElementById("paper-airplane")
+  function load_createsend() {
+
+    var script = document.createElement( "script" );
+    script.src = "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js";
+    script.type = "text/javascript";
+
+    document.body.appendChild(script);
+  };
 
   function paper_airplane() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd.svg'; };
   function paper_airplane_alt() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd-white.svg'; };

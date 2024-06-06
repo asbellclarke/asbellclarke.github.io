@@ -208,14 +208,23 @@
 
 </body>
 
-<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
-
 <script>
 
   var airplane = document.getElementById("paper-airplane"),
       div_what_is = document.getElementById( "what-is" );
 
   div_what_is.style.display = "none";
+
+  document.onload = load_createsend();
+
+  function load_createsend() {
+
+    var script = document.createElement( "script" );
+    script.src = "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js";
+    script.type = "text/javascript";
+
+    document.body.appendChild(script);
+  };
 
   function paper_airplane() { airplane.src='../inc/svg/jac.paper-airplane.mark.1.0.nd-black.svg'; };
   function paper_airplane_alt() { airplane.src='../inc/svg/jac.paper-airplane.mark.1.0.nd-white.svg'; };
