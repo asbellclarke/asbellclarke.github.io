@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="inc/css/licorice.css" />
   <link rel="stylesheet" href="inc/css/licorice.allsorts.css" />
 
-  <link rel="icon" href="inc/ico/jac.paper-airplane.mark.1.0.nd-color.144.png" />
+  <link rel="icon" href="inc/ico/jac.paper-airplane.mark.1.0.nd.144.png" />
 
   <style>
     html, body { background-color: black; }
@@ -32,9 +32,9 @@
   <nav class="allsorts-licorice allsorts-nav">
 
     <ul class="nav">
-      <li class="nav"><a onclick="cover();" onmouseover="paper_airplane_alt();" onmouseout="paper_airplane();"><img class="icon" id="paper-airplane" src="inc/svg/jac.paper-airplane.mark.1.0.nd-color.svg"/></a></li>
-      <li class="nav title"><a href="neurodiversity-inclusion/" title="Neurodiversity inclusion specialist, Dr Jodi Asbell-Clarke">Workshop&nbsp;/&nbsp;Seminar</a></li>
-      <li class="nav title"><a href="executive-function/" title="Executive function support, Dr Jodi Asbell-Clarke">Coaching Session</a></li>
+      <li class="nav"><a onclick="cover();" onmouseover="paper_airplane_alt();" onmouseout="paper_airplane();"><img class="icon" id="paper-airplane" src="inc/svg/jac.paper-airplane.mark.1.0.nd.svg"/></a></li>
+      <li class="nav title"><a href="neurodiversity-inclusion/" title="Neurodiversity inclusion specialist, Dr Jodi Asbell-Clarke.">Workshop&nbsp;/&nbsp;Seminar</a></li>
+      <li class="nav title"><a href="executive-function/" title="Executive function support, Dr Jodi Asbell-Clarke.">Coaching Session</a></li>
       <li class="nav title"><a href="jodi/" title="Author, Dr Jodi Asbell-Clarke">About</a></li>
 
       <li class="nav right title"><a onclick="contact();">Contact</a></li>
@@ -70,10 +70,10 @@
       <p><a onclick="about();">Jodi Asbell-Clarke</a>, PhD: Education/Curriculum, Teaching and Learning</p>
 
       <h5>Organizational</h5>
-      <h5 class="clear"><a href="neurodiversity-inclusion/">Neurodiversity Inclusion</a> workshops &amp; seminars</h5>
+      <h5 class="clear"><a href="neurodiversity-inclusion/" title="Neurodiversity inclusion specialist, Dr Jodi Asbell-Clarke.">Neurodiversity Inclusion</a> workshops &amp; seminars</h5>
 
       <h5>Personal</h5>
-      <h5 class="clear"><a href="executive-function/">Executive Function</a> coaching sessions</h5>
+      <h5 class="clear"><a href="executive-function/" title="Executive function support, Dr Jodi Asbell-Clarke.">Executive Function</a> coaching sessions</h5>
 
     </div>
 
@@ -159,7 +159,7 @@
       <!-- <h5>About Dr&nbsp;Jodi</h5> -->
       <p>Dr Jodi Asbell-Clarke is an experienced leader, researcher, and communicator who specializes in the inclusion of neurodivergent learners in Science, Technology, Engineering, and Mathematics (STEM). Jodi started her career as a computer programmer for IBM on the first 25 missions of NASA’s space shuttle program. She then went to graduate school for astrophysics with a dream of becoming an astronaut, but instead found her love for teaching and learning. She started teaching at the laboratory high school at the University of Illinois, and moved on to TERC, a non-profit in Cambridge, Mass focusing on educational research and innovations for equity in STEM education. For the past 30 years at TERC, Dr&nbsp;Asbell-Clarke has led ground-breaking educational research on how educational technologies and innovative pedagogies—such as game-based learning, project-based learning, and computational thinking—can reach marginalized learners in STEM. Jodi has lived in the US, France, and Canada (she currently resides in Halifax, Nova Scotia), where she has worked side-by-side with educators, academics, and business leaders to understand how to leverage and nurture the unique talents of neurodivergent learners in STEM.</p>
 
-      <h5>More about &middot; <a href="jodi/" title="Dr Jodi Asbell-Clarke">Dr Jodi Asbell-Clarke</a> &middot; <a href="jodi/cv/" title="Dr Jodi Asbell-Clarke / Curriculum Vitae" target="_blank">Curriculum Vitae</a></h5>
+      <h5>More about &middot; <a href="jodi/" title="Dr Jodi Asbell-Clarke">Dr Jodi Asbell-Clarke</a> &middot; <a href="jodi/cv/" title="Curriculum Vitae of Dr Jodi Asbell-Clarke" target="_blank">Curriculum Vitae</a></h5>
 
       <p>Contact &middot; <a onclick="contact();">E-mail address</a> &middot; <a href="//linkedin.com/in/asbellclarke/" title="LinkedIn / Dr Jodi Asbell-Clarke" target="_blank" rel="noopener">LinkedIn</a></p>
 
@@ -190,7 +190,7 @@
       <form id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
 
         <div>
-          <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''">
+          <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''" required="">
 
         </div>
         <div>
@@ -250,6 +250,8 @@
 
       <p class="small">Specialist website, author page and curriculum vitae page of Dr&nbsp;Jodi&nbsp;Asbell-Clarke designed and developed by <a href="//danealeksander.github.io" title="Dane Aleksander, graphic artist." target="_blank">Dane Aleksander</a> with ND in STEM color palette, GitHub Pages and Google Fonts: <i>Amatic SC</i> (Regular, Bold) and <i>IBM Plex Sans</i> (Extra-Light, Regular).</p>
 
+      <p class="small">Site &middot; <a href="info/" title="">Information</a> &middot; <a href="index/" title="">Index</a></p>
+
       <p class="small">Copyright &copy; 2024 Jodi Asbell-Clarke. <a href="" title="">Terms of Access</a>.</p>
 
     </div>
@@ -273,8 +275,8 @@
 
   var airplane = document.getElementById("paper-airplane")
 
-  function paper_airplane() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd-color.svg'; };
-  function paper_airplane_alt() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd-color-white.svg'; };
+  function paper_airplane() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd.svg'; };
+  function paper_airplane_alt() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd-white.svg'; };
 
   function cover() { document.querySelector( "#welcome" ).scrollIntoView({ behavior: 'smooth' }); };
   function about() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };

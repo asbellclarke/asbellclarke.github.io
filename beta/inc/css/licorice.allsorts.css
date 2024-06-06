@@ -98,15 +98,17 @@ select:hover,
 
 /* 8.3 BORDER-COLOR */
 
+.allsorts-licorice .matte {
+  border-color: var(--nd-teal);
+}
+.matte.nd-cyan {
+  border-color: var(--nd-cyan);
+}
+.matte.nd-orange,
 .allsorts-candy .matte {
   border-color: var(--nd-orange);
 }
-.allsorts-licorice .matte {
-  border-color: var(--nd-teal);
-}
-.allsorts-licorice .matte {
-  border-color: var(--nd-teal);
-}
+.matte.white,
 .allsorts-candy-nd-cyan .matte {
   border-color: white;
 }

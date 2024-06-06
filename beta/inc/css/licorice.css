@@ -201,6 +201,19 @@ div.feature {
   grid-area: center;
 }
 
+/* .grid-poly-1 {
+  grid-area: poly-1;
+}
+.grid-poly-2 {
+  grid-area: poly-2;
+}
+.grid-poly-3 {
+  grid-area: poly-3;
+}
+.grid-poly-4 {
+  grid-area: poly-4;
+} */
+
 /* 1 4 GRID LAYOUT */
 
 .one-two,
@@ -217,6 +230,12 @@ div.feature {
   grid-template-areas:
     'layer layer layer'
     'left right right';
+}
+.poly {
+  grid-template-areas:
+    'layer layer layer layer'
+    'poly-1 poly-2 poly-3 poly-4';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .copy {
   grid-template-areas:
