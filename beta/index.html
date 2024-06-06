@@ -12,8 +12,9 @@
 
   <title>Dr Jodi Asbell-Clarke</title>
 
-  <link rel="prefetch" href="https://fonts.googleapis.com/css?family=Arimo:400,700|IBM+Plex+Sans:300,300i,500" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700|IBM+Plex+Sans:300,300i,500" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,300;0,500;1,300&display=swap" />
   <link rel="stylesheet" href="inc/css/licorice.css" />
   <link rel="stylesheet" href="inc/css/licorice.allsorts.css" />
 
@@ -160,7 +161,7 @@
 
       <h5>More about &middot; <a href="jodi/" title="Dr Jodi Asbell-Clarke">Dr Jodi Asbell-Clarke</a> &middot; <a href="jodi/cv/" title="Dr Jodi Asbell-Clarke / Curriculum Vitae" target="_blank">Curriculum Vitae</a></h5>
 
-      <p>Contact &middot; <a onclick="contact();">E-mail address</a> &middot; <a href="" title="LinkedIn / Dr Jodi Asbell-Clarke" target="_blank" rel="noopener">LinkedIn</a></p>
+      <p>Contact &middot; <a onclick="contact();">E-mail address</a> &middot; <a href="//linkedin.com/in/asbellclarke/" title="LinkedIn / Dr Jodi Asbell-Clarke" target="_blank" rel="noopener">LinkedIn</a></p>
 
     </div>
 
@@ -186,36 +187,35 @@
       <h3 class="clear">Contact Dr&nbsp;Jodi Asbell-Clarke</h3>
       <p class="clear">Enter your name and address to request workshops, seminars or coaching sessions.</p>
 
-      <form action="" method="post">
+      <form id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
+
         <div>
-          <input aria-label="Name" id="fieldName" maxlength="140" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''">
+          <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''">
 
         </div>
         <div>
-          <input aria-label="Company" id="fieldName" maxlength="140" name="cm-??" title="Company" placeholder="Organization (optional)" onfocus="if (this.value=='Organization (optional)') this.value = ''">
+          <input aria-label="Company" id="fieldjullzl" maxlength="200" name="cm-f-jullzl" title="Company" placeholder="Organization (optional)" onfocus="if (this.value=='Organization (optional)') this.value = ''">
 
         </div>
         <div>
-          <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="140" name="cm-??" required="" type="email" placeholder="E-mail address" onfocus="if (this.value=='E-mail address') this.value = ''" title="E-mail address required.">
+          <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-tlkhury-tlkhury" required="" type="email" placeholder="E-mail address" onfocus="if (this.value=='E-mail address') this.value = ''">
 
         </div>
         <div>
-          <input aria-label="Phone" id="fieldPhone" maxlength="140" name="cm-??" title="Phone" placeholder="Telephone number (optional)" onfocus="if (this.value=='Telephone number (optional)') this.value = ''">
+          <input aria-label="Phone" id="fieldjullfu" maxlength="200" name="cm-f-jullfu" title="Phone" placeholder="Telephone number (optional)" onfocus="if (this.value=='Telephone number (optional)') this.value = ''">
 
         </div>
         <div>
 
-          <input type="hidden" name="cm-??" title="??" placeholder="Select option" onfocus="if (this.value=='Select option') this.value = ''" value="Request">
-          <select name="os0">
-            <option value="">Select option</option>
-            <option value="Organizational A">Organizational Workshop / Seminar in Halifax, NS</option>
-            <option value="Organizational B">Organizational Workshop / Seminar (Virtual)</option>
-            <option value="Personal A">Personal Coaching Session in Halifax, NS</option>
-            <option value="Personal B">Personal Coaching Session (Virtual)</option>
-            <option value="C">Other</option>
+          <select aria-label="select option" id="fieldjullzr" name="cm-fo-jullzr" value="">
+            <option disabled="" selected="" value="">Select option&hellip;</option>
+            <option value="2026257">Organizational Workshop / Seminar in Halifax</option>
+            <option value="2026258">Organizational Workshop / Seminar (Virtual)</option>
+            <option value="2026259">Personal Coaching Session in Halifax</option>
+            <option value="2026260">Personal Coaching Session (Virtual)</option>
+            <option value="2026261">Other</option>
 
           </select>
-          <!-- <input aria-label="??" id="field??" maxlength="140" name="cm-??" title="??" placeholder="Select term" onfocus="if (this.value=='Select term') this.value = ''"> -->
           <button type="submit">Send request&nbsp; <img class="button" src="inc/svg/jac.paper-airplane.mark.1.0.white-black.svg"/></button>
           <div class="gutter">
             <p class="clear small">E-mail address required for your protection and to protect from spam.</p>
@@ -261,6 +261,8 @@
   </div>
 
 </body>
+
+<script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
 
 <script>
 
