@@ -536,10 +536,10 @@ and ( max-width: 1440px ) {
 and ( max-width: 1200px ) {
 
   .allsorts > div {
-    grid-gap: calc( 1em + ( 10 * ( ( 100vw - 960px ) / 240 ) ));
+    grid-gap: calc( 1em + ( 9 * ( ( 100vw - 960px ) / 240 ) ));
   }
   .grid {
-    padding: calc( 1em + ( 20 * ( ( 100vw - 960px ) / 240 ) ));
+    padding: calc( 1em + ( 18 * ( ( 100vw - 960px ) / 240 ) ));
   }
 
 }
@@ -622,6 +622,9 @@ and ( max-width: 808px ) {
   .grid {
     padding: calc( 2em + ( 10 * ( ( 100vw - 768px ) / 40 ) ));
   }
+  body {
+    grid-template-columns: 100vw;
+  }
   .one-two,
   .two-one,
   .three-five,
@@ -630,7 +633,10 @@ and ( max-width: 808px ) {
   .layer,
   .poly,
   .copy {
-    grid-template-columns: 97.5vw;
+    /* grid-template-columns: 96vw; */
+  }
+  nav ul li {
+    font-size: calc( 1em + ( 10 * ( ( 100vw - 480px ) / 328 ) ));
   }
 }
 
@@ -663,10 +669,10 @@ and ( max-width: 768px ) {
 and ( max-width: 640px ) {
 
   h1, h2, h3, h4 {
-    font-size: calc( 3em + ( 18 * ( ( 100vw - 480px ) / 160 ) ) );
+    font-size: calc( 3em + ( 20 * ( ( 100vw - 480px ) / 160 ) ) );
   }
   h5, h6 {
-    font-size: calc( 2em + ( 9 * ( ( 100vw - 480px ) / 160 ) ) );
+    font-size: calc( 2em + ( 10 * ( ( 100vw - 480px ) / 160 ) ) );
   }
 
 }
@@ -681,6 +687,9 @@ and ( max-width: 480px ) {
   }
   h5, h6 {
     font-size: 2em;
+  }
+  nav ul li {
+    font-size: 1em;
   }
 
 }
