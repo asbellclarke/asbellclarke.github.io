@@ -156,13 +156,13 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  margin: 0;
+  padding: 0.125em 1em;
 }
 
 nav ul li,
 .left {
   float: left;
-  margin: 0;
-  padding: 0.125em 1em;
 }
 .right {
   float: right;
@@ -644,6 +644,12 @@ and ( max-width: 768px ) {
     padding-left: 0.4em;
     padding-right: 0.4em;
   }
+  nav ul li:not(.right) {
+    padding-right: calc( 0.125em + ( 7.5 * ( ( 100vw - 640px ) / 120 ) ));
+  }
+  nav ul li.right {
+    padding-left: calc( 0.125em + ( 7.5 * ( ( 100vw - 640px ) / 120 ) ));
+  }
   .allsorts > div {
     grid-gap: 1em;
   }
@@ -683,6 +689,17 @@ and ( max-width: 640px ) {
   h5, h6 {
     font-size: calc( 2em + ( 10 * ( ( 100vw - 480px ) / 160 ) ) );
   }
+  nav ul li {
+    font-size: calc( 1.25em + ( 7.5 * ( ( 100vw - 480px ) / 160 ) ) );
+  }
+
+  nav ul li:not(.right) {
+    padding-right: 0;
+  }
+  nav ul li.right {
+    padding-left: 0;
+  }
+
 
 }
 
@@ -696,6 +713,9 @@ and ( max-width: 480px ) {
   }
   h5, h6 {
     font-size: 2em;
+  }
+  nav ul li {
+    font-size: 1.25em;
   }
 
 }
