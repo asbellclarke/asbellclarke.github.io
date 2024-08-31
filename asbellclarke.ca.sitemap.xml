@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="https://www.google.com/schemas/sitemap/0.9"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.google.com/schemas/sitemap/0.9
+                      https://www.google.com/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
+<url>
+  <loc>https://asbellclarke.ca/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://asbellclarke.ca/neurodiversity-inclusion/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://asbellclarke.ca/executive-function/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.8</priority>
+</url>
+
+
+
+<url>
+  <loc>https://asbellclarke.ca/jodi/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://asbellclarke.ca/jodi/cv/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>https://asbellclarke.ca/jodi/reaching-and-teaching-neurodivergent-learners-in-stem/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.2</priority>
+</url>
+
+
+
+<url>
+  <loc>https://asbellclarke.ca/c/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.1</priority>
+</url>
+
+
+
+<url>
+  <loc>https://asbellclarke.ca/index/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.1</priority>
+</url>
+
+
+
+<url>
+  <loc>https://asbellclarke.ca/info/</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0.1</priority>
+</url>
+
+
+
+<url>
+  <loc>https://asbellclarke.ca/robots.txt</loc>
+  <lastmod>2019-09-01</lastmod>
+  <priority>0</priority>
+</url>
+
+</urlset>

@@ -5,18 +5,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="company" content="Dr Jodi Asbell-Clarke" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta name="description" content="Specialist website of Dr Jodi Asbell-Clarke." />
+  <meta name="keywords" content="neurodiversity inclusion specialist, executive function support, halifax, jodi, asbell-clarke" />
 
   <title>Dr Jodi Asbell-Clarke</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,300;0,500;1,300&display=swap" />
-  <link rel="stylesheet" href="beta/inc/css/licorice.css" />
-  <link rel="stylesheet" href="beta/inc/css/licorice.allsorts.css" />
+  <link rel="stylesheet" href="inc/css/licorice.css" />
+  <link rel="stylesheet" href="inc/css/licorice.allsorts.css" />
 
-  <link rel="icon" href="beta/inc/ico/jac.paper-airplane.mark.1.0.nd-color.144.png" />
+  <link rel="icon" href="inc/ico/jac.paper-airplane.mark.1.0.nd.144.png" />
 
   <style>
     html, body { background-color: black; }
@@ -30,7 +30,12 @@
   <nav class="allsorts-licorice allsorts-nav">
 
     <ul class="nav">
-      <li class="nav"><img class="icon" id="paper-airplane" src="beta/inc/svg/jac.paper-airplane.mark.1.0.nd.svg"/></li>
+      <li class="nav"><a onclick="cover();" onmouseover="paper_airplane_alt();" onmouseout="paper_airplane();"><img class="icon" id="paper-airplane" src="inc/svg/jac.paper-airplane.mark.1.0.nd.svg"/></a></li>
+      <li class="nav title"><a href="neurodiversity-inclusion/" title="Neurodiversity Inclusion Specialist, Dr Jodi Asbell-Clarke.">Work<font class="toggle-form-full">shop&nbsp;/&nbsp;Seminar</font><font class="toggle-form-break">place</font></a></li>
+      <li class="nav title"><a href="executive-function/" title="Executive Function Support, Dr Jodi Asbell-Clarke."><font class="toggle-form-full">Coaching Session</font><font class="toggle-form-break">Support</font></a></li>
+      <li class="nav title"><a href="jodi/" title="Author, Dr Jodi Asbell-Clarke">About</a></li>
+
+      <li class="nav right title"><a onclick="contact();">Contact</a></li>
 
       <br clear="all" />
 
@@ -40,29 +45,232 @@
 
   <div class="allsorts-licorice welcome feature" id="welcome">
 
-    <div class="grid grid-layer text-center">
-      <h1 class="clear">Dr Jodi Asbell-Clarke</h1>
-      <h5 class="title">Neurodiversity Inclusion Specialist &middot; Executive Function Support</h5>
+    <div class="grid grid-layer">
+      <h1 class="clear text-center">Dr Jodi Asbell-Clarke</h1>
+      <h5 class="text-center title">Neurodiversity Inclusion&nbsp;Specialist</h5>
+      <h5 class="clear text-center title">Executive&nbsp;Function Support</h5>
       <p class="text-center">AUTHOR: <i>Reaching and Teaching Neurodivergent Learners in STEM</i></p>
 
     </div>
 
     <div class="grid grid-left">
+      <img alt="Dr Jodi Asbell-Clarke presents at TEDx Beacon Street in 2017." class="matte profile" src="inc/img/jac-profile.jpg"/>
+      <div class="gutter">
+        <p class="clear small">Dr Jodi Asbell-Clarke, TEDx Beacon Street, &lsquo;We know more than we can tell.&rsquo; Boston, MA, 2017</p>
 
-      <img class="matte null" />
-
-      <p class="small">Specialist website, author page and curriculum vitae page of Dr&nbsp;Jodi&nbsp;Asbell-Clarke is in development.</>
+      </div>
 
     </div>
 
     <div class="grid grid-right">
 
-      <!-- <img class="matte null" /> -->
+      <h5 class="clear"><b>&ldquo;</b><i>Embracing neurodiversity is not only the right thing to do, it is the smart thing to do. We need the unique problem solving talents of neurodivergent learners to tackle the grand challenges ahead.</i><b>&rdquo;</b></h5>
+
+      <p><a onclick="about();">Jodi Asbell-Clarke</a>, PhD: Education/Curriculum, Teaching and Learning</p>
+
+      <h5>Organizational</h5>
+      <h5 class="clear"><a href="neurodiversity-inclusion/" title="Neurodiversity Inclusion Specialist, Dr Jodi Asbell-Clarke.">Neurodiversity Inclusion</a> workshops &amp; seminars</h5>
+
+      <h5>Personal</h5>
+      <h5 class="clear"><a href="executive-function/" title="Executive Function Support, Dr Jodi Asbell-Clarke.">Executive Function</a> coaching sessions</h5>
 
     </div>
 
   </div>
 
+  <div class="allsorts-candy-nd-teal five-three">
+
+    <div class="grid grid-left">
+
+      <h3 class="clear title">Neurodiversity in the Workplace</h3>
+
+      <h5>Discover how to leverage what companies around the world see as a competitive advantage&mdash;neurodiversity in the workplace. Some of our most creative, systematic, and persistent problem-solvers are autistic or have ADHD or dyslexia.</h5>
+
+      <h5><b>&ldquo;</b><i>I can help you build a work environment that promotes these talents and helps neurodiversity thrive.</i><b>&rdquo;</b></h5>
+      <p><a onclick="about();">Jodi Asbell-Clarke</a>, PhD &middot; Author of <i>Reaching and Teaching Neurodivergent Learners in STEM: Strategies for Embracing Uniquely Talented Problem Solvers</i></p>
+
+    </div>
+
+    <div class="grid grid-right">
+
+      <h5 class="title">Clear, practical solutions for embracing neurodiversity in your organization:</h5>
+
+      <ul>
+        <li>Inclusive Hiring Practices</li>
+        <li>Inclusive Management Strategies</li>
+        <li>Equitable Communication and Culture</li>
+        <li>Revealing and Nurturing Unique Talents</li>
+
+      </ul>
+
+      <br>
+      <br>
+
+      <button onclick="contact();">Request workshop / seminar</button>
+
+    </div>
+
+  </div>
+
+  <div class="allsorts-candy-nd-orange three-five">
+
+    <div class="grid grid-right">
+
+      <h3 class="clear title">Working with Neurodiversity</h3>
+
+      <h5>Executive function impacts everything you do in life. Discover how much you can accomplish when you have useful executive function supports and productive strategies.</h5>
+
+      <h5><b>&ldquo;</b><i>I can help you support your executive function so that you can do the things you want to do.</i><b>&rdquo;</b></h5>
+      <p><a onclick="about();">Jodi Asbell-Clarke</a>, PhD &middot; Author of <i>Reaching and Teaching Neurodivergent Learners in STEM: Strategies for Embracing Uniquely Talented Problem Solvers</i></p>
+
+    </div>
+
+    <div class="grid grid-left">
+
+      <h5 class="title">Executive function supports that might be right for you:</h5>
+
+      <ul>
+        <li>Planning and Time Management</li>
+        <li>Organizing Tasks and Information</li>
+        <li>Communicating Your Strengths and Needs</li>
+        <li>Career Strategies for Neurodivergent Learners</li>
+
+      </ul>
+
+      <br>
+      <br>
+
+      <button onclick="contact();" title="Executive Function Support, Dr Jodi Asbell-Clarke">Request coaching session</button>
+
+    </div>
+
+  </div>
+
+  <div class="allsorts-licorice layer" id="about">
+
+    <div class="grid grid-layer">
+
+      <img class="matte null" />
+      <!-- <h5>About Dr&nbsp;Jodi</h5> -->
+      <p>Dr Jodi Asbell-Clarke is an experienced leader, researcher, and communicator who specializes in the inclusion of neurodivergent learners in Science, Technology, Engineering, and Mathematics (STEM). Jodi started her career as a computer programmer for IBM on the first 25 missions of NASA’s space shuttle program. She then went to graduate school for astrophysics with a dream of becoming an astronaut, but instead found her love for teaching and learning. She started teaching at the laboratory high school at the University of Illinois, and moved on to TERC, a non-profit in Cambridge, Mass focusing on educational research and innovations for equity in STEM education. For the past 30 years at TERC, Dr&nbsp;Asbell-Clarke has led ground-breaking educational research on how educational technologies and innovative pedagogies—such as game-based learning, project-based learning, and computational thinking—can reach marginalized learners in STEM. Jodi has lived in the US, France, and Canada (she currently resides in Halifax, Nova Scotia), where she has worked side-by-side with educators, academics, and business leaders to understand how to leverage and nurture the unique talents of neurodivergent learners in STEM.</p>
+
+      <h5>More about &middot; <a href="jodi/" title="Dr Jodi Asbell-Clarke">Dr Jodi Asbell-Clarke</a> &middot; <a href="jodi/cv/" title="Curriculum Vitae of Dr Jodi Asbell-Clarke." target="_blank">Curriculum Vitae</a></h5>
+
+      <p>Contact &middot; <a onclick="contact();">E-mail address</a> &middot; <a href="//linkedin.com/in/asbellclarke/" title="LinkedIn / Dr Jodi Asbell-Clarke" target="_blank" rel="noopener">LinkedIn</a></p>
+
+    </div>
+
+  </div>
+
+  <div class="allsorts-candy five-three" id="contact">
+
+    <div class="grid grid-right">
+      <img alt="Dr Jodi Asbell-Clarke presents at SxSW Edu in 2024." class="matte" src="inc/img/jac-sxsw-edited.jpeg"/>
+      <div class="gutter">
+        <p class="clear small">Dr Jodi Asbell-Clarke, SxSW Edu, &lsquo;Neurodiversity in STEM: Uniquely talented problem solvers.&rsquo; Austin, TX, 2024</p>
+
+      </div>
+
+      <p>For a custom request for workshops, seminars or coaching sessions &middot; <a href="mailto:inbox@asbellclarke.ca" title="Submit request for neurodiversity inclusion workshops of seminars with Dr&nbsp;Jodi Asbell-Clarke." target="_blank">inbox@asbellclarke.ca</a></p>
+
+      <p>For a media or press inquiry &middot; <a href="mailto:info@asbellclarke.ca" title="Press inquiry for Dr&nbsp;Jodi Asbell-Clarke" target="_blank">info@asbellclarke.ca</a></p>
+
+    </div>
+
+    <div class="grid grid-left">
+
+      <h3 class="clear">Contact Dr&nbsp;Jodi Asbell-Clarke</h3>
+      <p class="clear">Enter your name and address to request workshops, seminars or coaching sessions.</p>
+
+      <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
+
+        <div>
+          <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''" required="">
+
+        </div>
+        <div>
+          <input aria-label="Company" id="fieldjullzl" maxlength="200" name="cm-f-jullzl" title="Company" placeholder="Organization (optional)" onfocus="if (this.value=='Organization (optional)') this.value = ''">
+
+        </div>
+        <div>
+          <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-tlkhury-tlkhury" required="" type="email" placeholder="E-mail address" onfocus="if (this.value=='E-mail address') this.value = ''">
+
+        </div>
+        <div>
+          <input aria-label="Phone" id="fieldjullfu" maxlength="200" name="cm-f-jullfu" title="Phone" placeholder="Telephone number (optional)" onfocus="if (this.value=='Telephone number (optional)') this.value = ''">
+
+        </div>
+        <div>
+
+          <select aria-label="select option" id="fieldjullzr" name="cm-fo-jullzr" value="">
+            <option disabled="" selected="" value="">Select option&hellip;</option>
+            <option value="2026257">Organizational Workshop / Seminar in Halifax</option>
+            <option value="2026258">Organizational Workshop / Seminar (Virtual)</option>
+            <option value="2026259">Personal Coaching Session in Halifax</option>
+            <option value="2026260">Personal Coaching Session (Virtual)</option>
+            <option value="2026261">Other</option>
+
+          </select>
+          <button type="submit">Send request&nbsp; <img class="button" src="inc/svg/jac.paper-airplane.mark.1.0.white-black.svg"/></button>
+          <div class="gutter">
+            <p class="clear small">E-mail address required for your protection and to protect from spam.</p>
+            <p class="clear small">Optional: Enter telephone number if you prefer to receive a call in response.</p>
+
+          </div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <div class="allsorts-licorice copy">
+
+    <div class="grid grid-left">
+
+      <img class="matte null" />
+
+      <p class="small">Specialist website, author page and curriculum vitae page of Dr&nbsp;Jodi&nbsp;Asbell-Clarke designed and developed by <a href="//danealeksander.github.io" title="Dane Aleksander, graphic artist." target="_blank">Dane Aleksander</a> with ND in STEM color palette, GitHub Pages and Google Fonts: <i>Amatic SC</i> (Regular, Bold) and <i>IBM Plex Sans</i> (Extra-Light, Regular).</p>
+
+      <p class="small">asbellclarke.ca &middot; <a href="index/" title="asbellclarke.ca &ndash; Index">Site Index</a> &middot; <a href="info/" title="asbellclarke.ca &ndash; Media">Site Information</a></p>
+
+      <p class="small">Copyright &copy; 2024 Jodi Asbell-Clarke &middot; <a href="c/" title="asbellclarke.ca &ndash; Terms" target="_blank">Terms of Access</a></p>
+
+
+    </div>
+
+    <div class="grid grid-right"></div>
+
+    <div class="grid grid-center grid-end"></div>
+
+  </div>
+
 </body>
+
+<script>
+
+  var airplane = document.getElementById("paper-airplane");
+
+  document.onload = load_createsend();
+
+  function load_createsend() {
+
+    var script = document.createElement( "script" );
+    script.src = "https://js.createsend1.com/javascript/copypastesubscribeformlogic.js";
+    script.type = "text/javascript";
+
+    document.body.appendChild(script);
+  };
+
+  function paper_airplane() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd.svg'; };
+  function paper_airplane_alt() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd-white.svg'; };
+
+  function cover() { document.querySelector( "#welcome" ).scrollIntoView({ behavior: 'smooth' }); };
+  function about() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
+  function contact() { document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' }); };
+
+</script>
 
 </html>

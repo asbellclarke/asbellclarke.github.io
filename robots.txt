@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+Disallow: /404.html
+
+Disallow: /c/
+Disallow: /inbox/
+Disallow: /inc/
+Disallow: /index/
+Disallow: /info/
+Disallow: /invoice/
+
+Disallow: /feed/
+Disallow: */feed/
+
+Sitemap: /asbellclarke.ca.sitemap.xml
+
+
+
+# AI #
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /

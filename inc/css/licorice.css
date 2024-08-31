@@ -5,7 +5,7 @@
  Author:       Dane Aleksander
  Author URI:   https://danealeksander.github.io/
  Template:
- Version:      0.0.1
+ Version:      1.0.0
 */
 
 /* - root
@@ -57,10 +57,6 @@ img.button {
 }
 br.clear {
   clear: both;
-}
-.clear {
-  margin: 0;
-  padding: 0;
 }
 ::-webkit-scrollbar {
   height: 1.25em;
@@ -386,6 +382,9 @@ font.small {
 ul li:not(.nav) {
   list-style: square;
 }
+ul.lower-alpha li{
+  list-style: lower-alpha;
+}
 
 
 
@@ -438,6 +437,13 @@ select {
 
 .matte {
   border: 1.25em solid;
+}
+
+
+li.clear,
+.clear {
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -721,5 +727,43 @@ and ( max-width: 480px ) {
 }
 
 @media print {
+
+  body {
+    /* font-size: 1rem; */
+  }
+  h1, h3, a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  h1, h2 {
+    font-size: 5em;
+  }
+  h3, h4 {
+    font-size: 3em;
+  }
+
+  .allsorts > div {
+    padding: 34em 5em 2em;
+  }
+
+  .welcome {
+    grid-template-areas:
+      'layer'
+      'left'
+      'right';
+  }
+  .welcome {
+    grid-template-columns: 1fr;
+  }
+
+  .grid {
+    display: block;
+    padding: 3em;
+  }
+  .no-print {
+    display: none;
+    padding: 0;
+  }
 
 }
