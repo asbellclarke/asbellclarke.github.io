@@ -32,10 +32,10 @@
     <ul class="nav">
       <li class="nav"><a onclick="cover();"><img class="icon" id="paper-airplane" src="inc/svg/jac.paper-airplane.mark.1.0.nd.svg"/></a></li>
       <li class="nav title"><a href="neurodiversity-inclusion/" title="Neurodiversity Inclusion Specialist, Dr Jodi Asbell-Clarke.">Work<font class="toggle-form-full">shop&nbsp;/&nbsp;Seminar</font><font class="toggle-form-break">place</font></a></li>
-      <li class="nav title"><a href="executive-function/" title="Executive Function Support, Dr Jodi Asbell-Clarke."><font class="toggle-form-full">Coaching Session</font><font class="toggle-form-break">Support</font></a></li>
-      <li class="nav title"><a href="jodi/" title="Author, Dr Jodi Asbell-Clarke">About</a></li>
+      <li class="allsorts-candy-nd-orange-color nav title"><a href="executive-function/" title="Executive Function Support, Dr Jodi Asbell-Clarke."><font class="toggle-form-full">Coaching Session</font><font class="toggle-form-break">Support</font></a></li>
+      <li class="allsorts-candy-color nav title"><a href="jodi/" title="Author, Dr Jodi Asbell-Clarke">About</a></li>
 
-      <li class="nav right title"><a onclick="contact();">Contact</a></li>
+      <li class="allsorts-candy-color nav right title"><a onclick="contact();">Contact</a></li>
 
       <br clear="all" />
 
@@ -49,7 +49,7 @@
       <h1 class="clear text-center">Dr Jodi Asbell-Clarke</h1>
       <h5 class="text-center title">Neurodiversity Inclusion&nbsp;Specialist</h5>
       <h5 class="clear text-center title">Executive&nbsp;Function Support</h5>
-      <p class="text-center">AUTHOR: <i>Reaching and Teaching Neurodivergent Learners in STEM</i></p>
+      <p class="text-center">AUTHOR: <i><a href="jodi/reaching-and-teaching-neurodivergent-learners-in-stem/" title="Jodi Abell-Clarke, Reaching and Teaching Neurodivergent Learners in STEM">Reaching and Teaching Neurodivergent Learners in STEM</a></i></p>
 
     </div>
 
@@ -64,21 +64,19 @@
 
     <div class="grid grid-right">
 
-      <h5 class="clear"><b>&ldquo;</b><i>Embracing neurodiversity is not only the right thing to do, it is the smart thing to do. We need the unique problem solving talents of neurodivergent learners to tackle the grand challenges ahead.</i><b>&rdquo;</b></h5>
+      <p class="clear"><b>&ldquo;</b><i>Embracing neurodiversity is not only the right thing to do, it is the smart thing to do. We need the unique problem solving talents of neurodivergent learners to tackle the grand challenges ahead.</i><b>&rdquo;</b> &mdash;&nbsp;<a onclick="about();">Jodi Asbell-Clarke</a>, PhD:&nbsp;Education/Curriculum, Teaching and Learning</p>
 
-      <p><a onclick="about();">Jodi Asbell-Clarke</a>, PhD: Education/Curriculum, Teaching and Learning</p>
+      <!-- <h5>Organizational</h5> -->
+      <h5>Organizational &middot; <a onclick="work();" title="Neurodiversity Inclusion Specialist, Dr Jodi Asbell-Clarke.">Neurodiversity Inclusion Workshops</a></h5>
 
-      <h5>Organizational</h5>
-      <h5 class="clear"><a href="neurodiversity-inclusion/" title="Neurodiversity Inclusion Specialist, Dr Jodi Asbell-Clarke.">Neurodiversity Inclusion</a> workshops &amp; seminars</h5>
-
-      <h5>Personal</h5>
-      <h5 class="clear"><a href="executive-function/" title="Executive Function Support, Dr Jodi Asbell-Clarke.">Executive Function</a> coaching sessions</h5>
+      <!-- <h5>Personal</h5> -->
+      <h5 class="allsorts-candy-nd-orange-color">Individual &middot; <a onclick="home();" title="Executive Function Support, Dr Jodi Asbell-Clarke.">Executive Function Coaching Sessions</a></h5>
 
     </div>
 
   </div>
 
-  <div class="allsorts-candy-nd-teal five-three">
+  <div class="allsorts-candy-nd-teal five-three" id="organization">
 
     <div class="grid grid-left">
 
@@ -112,7 +110,7 @@
 
   </div>
 
-  <div class="allsorts-candy-nd-orange three-five">
+  <div class="allsorts-candy-nd-orange three-five" id="individual">
 
     <div class="grid grid-right">
 
@@ -268,6 +266,8 @@
   function paper_airplane_alt() { airplane.src='inc/svg/jac.paper-airplane.mark.1.0.nd-white.svg'; };
 
   function cover() { document.querySelector( "#welcome" ).scrollIntoView({ behavior: 'smooth' }); };
+  function work() { document.querySelector( "#organization" ).scrollIntoView({ behavior: 'smooth' }); };
+  function home() { document.querySelector( "#individual" ).scrollIntoView({ behavior: 'smooth' }); };
   function about() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
   function contact() { document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' }); };
 

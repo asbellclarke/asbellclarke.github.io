@@ -22,7 +22,8 @@
 }
 .allsorts-candy a:hover,
 .allsorts-candy .color,
-.allsorts-candy-nd-cyan a {
+.allsorts-candy-nd-cyan a,
+.allsorts-candy-nd-orange-color a {
   color: var(--nd-orange);
 }
 .allsorts-candy-nd-teal a {
@@ -32,7 +33,8 @@ a:hover,
 button,
 select,
 .allsorts-candy-nd-cyan,
-.allsorts-licorice {
+.allsorts-licorice,
+.allsorts-candy-color a {
   color: white;
 }
 
