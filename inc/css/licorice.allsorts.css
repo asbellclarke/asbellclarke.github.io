@@ -54,15 +54,16 @@ select,
 .allsorts-licorice {
   background-color: black;
 }
+button:hover,
+select:hover,
 .allsorts-candy-nd-cyan {
   background-color: var(--nd-cyan);
 }
-button,
+/* button, */
 .allsorts-candy-nd-orange {
   background-color: var(--nd-orange);
 }
-button:hover,
-select:hover,
+/* button, */
 .allsorts-candy-nd-teal {
   background-color: var(--nd-teal);
 }
@@ -90,12 +91,9 @@ select:hover,
 .allsorts-candy-nd-teal button {
   background-color: black;
 }
-.allsorts-candy-nd-orange button:hover {
-  background-color: var(--nd-teal);
-
-}
+.allsorts-candy-nd-orange button:hover,
 .allsorts-candy-nd-teal button:hover {
-  background-color: var(--nd-orange);
+  background-color: var(--nd-cyan);
 }
 
 /* 8.3 BORDER-COLOR */

@@ -306,7 +306,8 @@ li:not(.nav), input {
 /* 2 FONT */
 
 body {
-  font-family: 'Amatic SC', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* font-family: 'Amatic SC', sans-serif; */
   /* -webkit-text-size-adjust: 90%;
      -moz-text-size-adjust: 90%;
       -ms-text-size-adjust: 90%;
@@ -316,7 +317,7 @@ body {
   font-weight: 400;
 }
 h1, h3, h5, p, li {
-  font-family: 'IBM Plex Sans', sans-serif;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
   font-weight: 300;
 }
 h2, h4, h6,
