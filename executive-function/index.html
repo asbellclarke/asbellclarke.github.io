@@ -48,7 +48,7 @@
       <h3 class="clear title">Working with Neurodiversity</h3>
       <h5 class="clear title">Executive Function Specialist</h5>
 
-      <p>Executive function, or EF, is at the core of accomplishing your goals. Autism, ADHD, anxiety, and many other mental stresses can impact your executive function. If compromised working memory, attention, flexibility, or self-regulation stands in the way of what you seem able to do and what you want to do, you may benefit from EF coaching. <a onclick="about();">Learn more</a>.</p>
+      <p>Executive function, or EF, is at the core of accomplishing your goals. Autism, ADHD, anxiety, and many other mental stresses can impact your executive function. If compromised working memory, attention, flexibility, or self-regulation stands in the way of what you seem able to do and what you want to do, you may benefit from EF coaching. <a onclick="more();">Learn more</a>.</p>
 
       <!-- Executive function impacts everything you do in life. Discover how much you can accomplish when you have useful executive function supports and productive strategies. -->
 
@@ -91,7 +91,7 @@
 
   </div>
 
-  <div class="allsorts-candy-nd-orange welcome feature" id="about">
+  <div class="allsorts-candy-nd-orange welcome feature" id="learn-more">
 
     <div class="clear grid grid-layer text-center">
 
@@ -247,14 +247,15 @@
   function toggle_what_is() {
     if (div_what_is.style.display == "none") {
       div_what_is.style.display = "grid";
-      document.querySelector( "#what-is" ).scrollIntoView({ behavior: 'smooth' });
+      document.querySelector( "#learn-more" ).scrollIntoView({ behavior: 'smooth' });
     }
     else {
       div_what_is.style.display = "none";
     }
   };
 
-  function about() { document.querySelector( "#about" ).scrollIntoView({ behavior: 'smooth' }); };
+  function more() { document.querySelector( "#learn-more" ).scrollIntoView({ behavior: 'smooth' }); };
+
   function contact() {
     div_what_is.style.display = "none";
     document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' });
