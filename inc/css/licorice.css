@@ -447,6 +447,10 @@ li.clear,
   margin: 0;
   padding: 0;
 }
+.clear-top {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 
 
