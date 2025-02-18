@@ -48,7 +48,7 @@
 
       <div class="gutter">
         <ul class="lower-alpha">
-          <li class="clear">to register contact form submissions (name and e-mail address) in an inbox for request of service.<sup>&nbsp;<a class="button" onclick="fn();" title="Registration Policy">1</a></sup></li>
+          <li class="clear">to register contact form submissions (name and e-mail address) in an inbox for request of service.<sup>&nbsp;[<a class="button" onclick="go_to_footnote();" title="Registration Policy">1</a>]</sup></li>
 
         </ul>
       </div>
@@ -85,7 +85,7 @@
       <p class="small"><sup>1</sup> You may not use a false e-mail address, impersonate any person or entity. Requests are secured in a third-party service, and in compliance with its policies:</p>
 
       <div class="gutter">
-        <p class="clear small">Campaign Monitor (<a href="//campaignmonitor.com/policies/" rel="noopener" target="_blank" title="Campaign Monitor / Policies">Policies</a>)</p>
+        <p class="clear small">Campaign Monitor &middot; <a href="//campaignmonitor.com/policies/" rel="noopener" target="_blank" title="Campaign Monitor / Policies">Policies</a></p>
 
       </div>
 
@@ -109,6 +109,10 @@
 
   function paper_airplane() { airplane.src='../inc/svg/jac.paper-airplane.mark.1.0.nd-black.svg'; };
   function paper_airplane_alt() { airplane.src='../inc/svg/jac.paper-airplane.mark.1.0.nd-alt.svg'; };
+
+  function go_to_footnote() {
+    document.querySelector( "#contact" ).scrollIntoView({ behavior: 'smooth' });
+  };
 
 </script>
 
