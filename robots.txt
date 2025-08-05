@@ -3,12 +3,16 @@ Allow: /
 
 Disallow: /404.html
 
+Disallow: /book/
 Disallow: /c/
+Disallow: /ef/
 Disallow: /inbox/
 Disallow: /inc/
 Disallow: /index/
 Disallow: /info/
 Disallow: /invoice/
+Disallow: /nd/
+Disallow: /terms/
 
 Disallow: /feed/
 Disallow: */feed/
