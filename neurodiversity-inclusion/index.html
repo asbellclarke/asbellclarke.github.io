@@ -127,7 +127,7 @@
       <h3 class="clear">Customized Neurodiversity (ND) Inclusion Seminars</h3>
       <p>Email Jodi at <a href="mailto:jodi@asbellclarke.ca?subject=Inclusion%Seminars" title="Submit request for personalized executive function coaching sessions with Dr.&nbsp;Jodi Asbell-Clarke." target="_blank">jodi&commat;asbellclarke.ca</a> with any questions about inclusion seminars or complete the form below for a short meeting (no charge) with Dr. Jodi Asbell-Clarke.</p>
 
-      <form id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
+      <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC26140A45338F01ADF510DEE818A83587EA4DAFA65C341609CE983357E050B449D8FEE6A18408B18F89CFE6808167DECB74">
 
         <div>
           <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name" title="Full name" placeholder="Name" onfocus="if (this.value=='Name') this.value = ''" required="">
@@ -189,11 +189,6 @@
 
 <script>
 
-  var airplane = document.getElementById("paper-airplane"),
-      what_is_1 = document.getElementById( "what-is-nd" );
-
-  what_is_1.style.display = "none";
-
   document.onload = load_createsend();
 
   function load_createsend() {
@@ -203,7 +198,13 @@
     script.type = "text/javascript";
 
     document.body.appendChild(script);
+
   };
+
+  var airplane = document.getElementById("paper-airplane"),
+      what_is_1 = document.getElementById( "what-is-nd" );
+
+  what_is_1.style.display = "none";
 
   function paper_airplane() { airplane.src='../inc/svg/jac.paper-airplane.mark.1.1.nd.svg'; };
   function paper_airplane_alt() { airplane.src='../inc/svg/jac.paper-airplane.mark.1.1.nd-white.svg'; };
