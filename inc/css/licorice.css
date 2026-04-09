@@ -323,7 +323,8 @@ h1, h3, h5, p, li {
 h2, h4, h6,
 a,
 b,
-button {
+button,
+a.allsorts-white:hover {
   font-weight: 500;
 }
 a,
@@ -333,7 +334,8 @@ button {
 i {
   font-style: italic;
 }
-*:not(h1, h3, h5, p, li) > i {
+*:not(h1, h3, h5, p, li) > i,
+a.allsorts-white:hover {
   font-style: normal;
 }
 

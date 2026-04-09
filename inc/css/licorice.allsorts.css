@@ -34,7 +34,8 @@ button,
 select,
 .allsorts-candy-nd-cyan,
 .allsorts-licorice,
-.allsorts-candy-color a {
+.allsorts-candy-color a,
+a.allsorts-white {
   color: white;
 }
 
