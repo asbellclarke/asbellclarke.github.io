@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.35163,0,0,0.36111,-8.79999,-8.65622)">
+        <path d="M443.08,54.001L443.08,256.587C443.08,415.69 263.914,489.203 263.914,489.203C263.914,489.203 84.748,415.69 84.748,256.587L84.748,54.001L263.914,23.971L443.08,54.001ZM391.889,96L263.914,74.55L135.938,96L135.938,256.587C135.938,319.491 172.673,364.831 208.091,395.089C228.778,412.763 249.421,425.491 263.915,433.41C278.406,425.491 299.049,412.763 319.736,395.089C355.154,364.831 391.889,319.491 391.889,256.587L391.889,96Z" style="fill:rgb(18,80,121);"/>
+    </g>
+    <g id="Paper-Airplane--nd-alt-" serif:id="Paper Airplane (nd-alt)" transform="matrix(1,0,0,1,12,12)">
+        <path d="M144,18L0,54L126,54L144,18Z" style="fill:rgb(230,97,0);"/>
+        <path d="M117,72L110.25,85.5L126,90L117,72Z" style="fill:rgb(18,80,121);"/>
+        <path d="M117,72L0,54L87,132L117,72Z" style="fill:rgb(230,97,0);"/>
+    </g>
+</svg>

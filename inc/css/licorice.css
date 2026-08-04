@@ -292,7 +292,10 @@ form {
   margin: 1em 0;
 }
 div.gutter {
-  padding: var(--base-i)
+  padding: var(--base-i);
+}
+div.gutter-v {
+  padding: 0 var(--base-v);
 }
 button, input, select, textarea {
   padding: 1em;
@@ -608,6 +611,15 @@ and ( max-width: 960px ) {
     grid-template-areas:
       'left'
       'right';
+  }
+  .one-two.reverse,
+  .two-one.reverse,
+  .three-five.reverse,
+  .five-three.reverse,
+  .copy.reverse {
+    grid-template-areas:
+      'right'
+      'left';
   }
   .welcome {
     grid-template-areas:
